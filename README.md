@@ -1,2 +1,18 @@
 # Intro-to-CS-Final
-CSCI-1020
+<h1>Longest Common Sequence</h1>
+Finds the longest common sequence of two DNA sequences by using a Needleman-Wunsch algorithm.
+
+Two scripts are provided, one uses dynamic programming (myLCS_DP.py) while the other uses recursion (myLCS_Re.py)
+Notable differences include:
+1. DP version executes much faster
+2. DP version will display the table it used to generate the LCS
+3. DP version will display the LCS it generated
+
+<h2>USAGE</h2> 
+Either script can be executed in the python command line. For instance: 
+    python myLCS_DP.py arg1 arg2
+
+Arguments can include: 
+1. Two DNA sequences. The program will simply generate the LCS of the two given sequences.
+2. One integer *n*. The program will create two random DNA sequences of length *n* and generate the LCS.
+3. No arguments. The program will create two random DNA sequences of length 12 and generate the LCS.
