@@ -8,7 +8,7 @@ Notable differences include:
 2. DP version will display the table it used to generate the LCS
 3. DP version will display the LCS it generated
 
-<h2>USAGE</h2> 
+<h2>Usage</h2> 
 Either script can be executed in the python command line. For instance: 
     python myLCS_DP.py arg1 arg2
 
