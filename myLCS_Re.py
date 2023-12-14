@@ -17,7 +17,7 @@ def lcs(dna1, dna2):
         elif y == 0:
             return score(x-1, y)
         
-        if dna1[y-1] == dna2[x-1]:
+        if (((dna1[y-1] == dna2[x-1]) and (score(x-1, y-1) >= score(x-1, y)) and (score(x-1, y-1) >= score(x,y-1)))):
             return 1 + score(x-1, y-1)
         elif score(x-1, y) > score(x, y-1):
             return score(x-1, y)
