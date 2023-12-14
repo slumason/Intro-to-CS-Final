@@ -1,5 +1,5 @@
 # Intro-to-CS-Final
-<h1>Longest Common Sequence</h1>
+<h2>Longest Common Sequence</h2>
 Finds the longest common sequence of two DNA sequences by using a Needleman-Wunsch algorithm.
 
 Two scripts are provided, one uses dynamic programming (myLCS_DP.py) while the other uses recursion (myLCS_Re.py)
