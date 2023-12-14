@@ -18,11 +18,6 @@ def lcs(dna1, dna2):
             row.append(0)
         opt.append(row)
 
-    for i in range(1, len(opt[0])):
-        opt[0][i] = opt[0][i-1]
-    for i in range(1, len(opt)):
-        opt[i][0] = opt[i-1][0]
-    
     for i in range(1, len(opt)):
         for j in range(1, len(opt[0])):
             scores = [0,0,0]
